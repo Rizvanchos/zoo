@@ -23,7 +23,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class AccountServiceTest {
+public class AccountServiceIntegrationTest {
 
     private static final String WASYA = "Wasya";
     private static final String WASYA_EMAIL = "wasya@zoo.com";

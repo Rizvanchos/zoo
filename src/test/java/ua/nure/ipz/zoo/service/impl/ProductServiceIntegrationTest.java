@@ -22,7 +22,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class ProductServiceTest {
+public class ProductServiceIntegrationTest {
 
     private static final String NAME = "Name";
     private static final String NEW_NAME = "newName";

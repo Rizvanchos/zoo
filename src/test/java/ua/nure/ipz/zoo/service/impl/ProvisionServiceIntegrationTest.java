@@ -30,7 +30,7 @@ import static org.junit.Assert.assertThat;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class ProvisionServiceTest {
+public class ProvisionServiceIntegrationTest {
 
     private static final String NAME = "Name";
     private static final String TYPE = "Type";

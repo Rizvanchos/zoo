@@ -29,7 +29,7 @@ import static org.junit.Assert.assertTrue;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class CartServiceTest {
+public class CartServiceIntegrationTest {
 
     private static final int NEW_QUANTITY = 10;
     private static final int INVALID_QUANTITY = 0;

@@ -31,7 +31,7 @@ import ua.nure.ipz.zoo.service.TicketService;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class OrderServiceTest {
+public class OrderServiceIntegrationTest {
 
     private static final String NAME = "Name";
     private static final String EMAIL = "Email@Email.ru";

@@ -21,7 +21,7 @@ import static org.junit.Assert.assertNotNull;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ua.nure.ipz.zoo.config.ZooJUnitConfiguration.class)
 @Transactional
-public class TicketServiceTest {
+public class TicketServiceIntegrationTest {
 
     private static final BigDecimal NEW_TICKET_PRICE = BigDecimal.TEN;
     private static final BigDecimal TICKET_PRICE = BigDecimal.ONE;

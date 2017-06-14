@@ -52,7 +52,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.16</version>
                 <configuration>
-                    <excludes>**/*Integration*</excludes>
+                    <excludes>
+                        <exclude>**/*Integration*</exclude>
+                    </excludes>
                     <skipTests>${skipUTs}</skipTests>
                 </configuration>
             </plugin>
@@ -61,7 +63,9 @@
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.16</version>
                 <configuration>
-                    <includes>**/*Integration*</includes>
+                    <includes>
+                        <include>**/*Integration*</include>
+                    </includes>
                     <skipTests>${skipTests}</skipTests>
                     <skipITs>${skipITs}</skipITs>
                 </configuration>

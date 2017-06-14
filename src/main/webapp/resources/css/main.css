@@ -1,0 +1,82 @@
+.navbar-default {
+    border: none;
+}
+
+.navbar-default .navbar-right {
+    position: relative;
+    right: 15px;
+}
+
+#navbar-logo {
+    height: 55px;
+    width: 140px;
+}
+
+.buy-button{
+    max-width: 150px;
+}
+
+.content-wrap {
+    padding: 15px 15px 15px 15px;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table tbody {
+    text-align: center;
+}
+
+.table .table-column-productname {
+    text-align: left;
+}
+
+.thumbnail {
+    height: 420px;
+    overflow: hidden;
+    max-width: 350px;
+    min-width: 250px;
+    max-height: 450px;
+}
+
+.thumbnail img {
+    width: 250px;
+    height: 180px;
+}
+
+.thumbnail .caption {
+    background-color: white;
+    height: 120px;
+}
+
+.thumbnail .prices {
+    height: 200px;
+}
+
+.thumbnail .prices .prices-concrete {
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 200px;
+}
+
+.thumbnail .prices .prices-concrete img {
+    width: 75px;
+    height: 75px;
+}
+
+.thumbnail .prices .prices-concrete p {
+    margin-bottom: 0px;
+}
+
+.thumbnail .caption h3 {
+    color: #18171c;
+    text-align: center;
+}
+
+.thumbnail .prices .prices-concrete .submit {
+    height: 35px;
+    position: relative;
+    bottom: -15px;
+}

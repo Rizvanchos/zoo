@@ -3,6 +3,9 @@
     <jsp:attribute name="activeLink">menu</jsp:attribute>
 
     <jsp:body>
+
+        <h1 align="center"> ANOTHER BRANCH DEPLOYMENT </h1>
+
         <div class="container content-wrap">
             <div class="row">
                 <c:forEach items="${animals}" var="animal">

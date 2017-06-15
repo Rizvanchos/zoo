@@ -2,8 +2,8 @@
 <configuration status="WARN" shutdownHook="disable">
     <appenders>
 
-        <RollingFile name="FileAppender" fileName="../logs/support.log"
-                     filePattern="../logs/support-%d{MM-dd-yyyy}-%i.log">
+        <RollingFile name="FileAppender" fileName="./logs/support.log"
+                     filePattern="./logs/support-%d{MM-dd-yyyy}-%i.log">
             <PatternLayout>
                 <pattern>%d{HH:mm:ss.SSS} [%t] %X{id} %X{username} %-5level %c{36} %l: %msg%n</pattern>
             </PatternLayout>
@@ -13,8 +13,8 @@
             <DefaultRolloverStrategy min="1" max="4"/>
         </RollingFile>
 
-        <RollingFile name="ServiceCallFileAppender" fileName="../logs/services.log"
-                     filePattern="../logs/services-%d{MM-dd-yyyy}-%i.log">
+        <RollingFile name="ServiceCallFileAppender" fileName="./logs/services.log"
+                     filePattern="./logs/services-%d{MM-dd-yyyy}-%i.log">
             <PatternLayout>
                 <pattern>%d{HH:mm:ss.SSS} [%t] %X{id} %X{username} %-5level %c{36} %l: %msg%n</pattern>
             </PatternLayout>
@@ -24,8 +24,8 @@
             <DefaultRolloverStrategy min="1" max="4"/>
         </RollingFile>
 
-        <RollingFile name="ErrorFileAppender" fileName="../logs/errors.log"
-                     filePattern="../logs/errors-%d{MM-dd-yyyy}-%i.log">
+        <RollingFile name="ErrorFileAppender" fileName="./logs/errors.log"
+                     filePattern="./logs/errors-%d{MM-dd-yyyy}-%i.log">
             <PatternLayout>
                 <pattern>%d{HH:mm:ss.SSS} [%t] %X{id} %X{username} %-5level %c{36} %l: %msg%n</pattern>
             </PatternLayout>

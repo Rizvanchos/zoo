@@ -4,7 +4,7 @@
 
     <jsp:body>
 
-        <h1 align="center"> ANOTHER BRANCH DEPLOYMENT</h1>
+        <h1 align="center"> ANOTHER BRANCH DEPLOYMENT TEST</h1>
 
         <div class="container content-wrap">
             <div class="row">

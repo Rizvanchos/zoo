@@ -2,9 +2,11 @@
 <template:main htmlTitle="${menuTitle}">
     <jsp:attribute name="activeLink">menu</jsp:attribute>
 
-    <h1 align="center"> AFTER PUSH DEPLOY </h1>
 
     <jsp:body>
+
+    <h1 align="center"> AFTER PUSH DEPLOY </h1>
+    
         <div class="container content-wrap">
             <div class="row">
                 <c:forEach items="${animals}" var="animal">

@@ -2,6 +2,8 @@
 <template:main htmlTitle="${menuTitle}">
     <jsp:attribute name="activeLink">menu</jsp:attribute>
 
+    <h1 align="center"> AFTER PUSH DEPLOY </h1>
+
     <jsp:body>
         <div class="container content-wrap">
             <div class="row">

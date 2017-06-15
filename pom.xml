@@ -86,7 +86,6 @@
                         <fileset>
                             <directory>${basedir}</directory>
                             <includes>
-                                <include>zoo.db/</include>
                                 <include>logs/</include>
                                 <include>derby.log</include>
                             </includes>
